@@ -1,0 +1,30 @@
+{
+    "wallabag": {
+        "url": "https://your-wallabag-instance.com/",
+        "client-id": "your-client-id",
+        "client-secret": "your-client-secret",
+        "username": "your-username",
+        "password": "your-password"
+    },
+    "feeds": [
+        {
+            "url": "http://what-if.xkcd.com/feed.atom",
+            "tags": [
+                "what-if"
+            ]
+        },
+        {
+            "url": "https://xkcd.com/rss.xml",
+            "tags": [
+                "xkcd"
+            ]
+        },
+        {
+            "url": "https://www.wired.com/feed/rss",
+            "tags": [
+                "wired",
+                "news"
+            ]
+        }
+    ]
+}
