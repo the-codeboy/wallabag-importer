@@ -72,6 +72,12 @@ cp config.example.json config.json
 
 ## Usage
 
+Activate the virtual environment:
+
+```bash
+source .venv/bin/activate
+```
+
 Run the importer:
 
 ```bash
