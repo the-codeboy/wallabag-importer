@@ -8,8 +8,6 @@ def main():
     token = get_token(config)
     feeds = config["feeds"]
 
-    add_entry(config, "https://the-codeboy.com", token)
-
     for feed in feeds:
         f = feedparser.parse(feed["url"])
         for entry in f["entries"]:
